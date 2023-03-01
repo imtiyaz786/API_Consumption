@@ -44,8 +44,10 @@ Steps:
     }
     </script>
     <button class="btn btn-primary" onclick="getProducts()"> Show products </button>
-    <table class="table table-bordered"> </table> ```
+    <table class="table table-bordered"> </table> 
+    ```
 - Under shared folder, within _Layout.cshtml, add these three lines with other actions:
+  
   ```html
    <li class="nav-item">
        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Products">Products</a>
